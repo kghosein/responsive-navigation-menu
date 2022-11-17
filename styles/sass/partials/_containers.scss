@@ -1,0 +1,14 @@
+@use 'variables';
+
+.outer-container {
+    width: 100%;
+    height: auto;
+    font-family: variables.$font;
+}
+
+.inner-container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    font-family: variables.$font;
+}
